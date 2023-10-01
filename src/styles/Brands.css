@@ -1,0 +1,56 @@
+.brands-container h1 {
+  font-weight: normal;
+  padding-top: 5rem;
+  font-size: 1.9em;
+  margin-bottom: 5rem;
+}
+
+.brands-product_grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.brands-product_card {
+  background-color: #282514;
+}
+
+.brands-product_card h1 {
+  margin-bottom: 0;
+  font-weight: normal;
+  padding: 1.4rem 0.5rem;
+  font-size: 1rem;
+}
+
+.brands-product_card img {
+  max-width: 100%;
+}
+
+.brands-product_grid a:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1060px) {
+  .brands-product_grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .brands-product_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .brands-container h1 {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}

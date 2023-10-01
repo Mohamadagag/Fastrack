@@ -1,0 +1,89 @@
+.luxury-cars-container h1 {
+  font-weight: normal;
+  padding-top: 5rem;
+  font-size: 1.9em;
+  margin-bottom: 5rem;
+}
+
+.luxury-cars-container p {
+  line-height: 2;
+}
+
+.luxury-cars-desc {
+  margin-bottom: 5rem;
+}
+
+.luxurycars-product_grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 9rem;
+}
+
+.luxurycars-product_card {
+  background-color: #282514;
+}
+
+.luxurycars-product_card h1 {
+  font-weight: normal;
+  padding: 1.4rem 0.5rem;
+  font-size: 1rem;
+}
+
+.luxurycars-product_grid h1 {
+  margin-bottom: 0;
+}
+
+.luxurycars-product_card img {
+  height: 18rem;
+  max-width: 100%;
+}
+
+.luxurycars-product_grid a:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1060px) {
+  .luxurycars-product_grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .luxurycars-product_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .luxurycars-product_grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 7rem;
+  }
+
+  .luxurycars-product_card img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .luxury-cars-container h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .luxury-cars-container h1 {
+    padding-top: 1rem;
+  }
+
+  .luxurycars-product_grid {
+    margin-bottom: 1rem;
+  }
+}

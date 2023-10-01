@@ -1,0 +1,21 @@
+.aboutUs-container {
+  margin-bottom: 3rem;
+}
+
+.aboutUs-container h1 {
+  font-weight: normal;
+  padding-top: 5rem;
+  font-size: 1.9em;
+  margin-bottom: 5rem;
+}
+
+.aboutus-par {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutUs-container h1 {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}

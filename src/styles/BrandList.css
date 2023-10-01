@@ -1,0 +1,21 @@
+.brand-list-title {
+  font-weight: normal;
+  padding-top: 5rem;
+  font-size: 1.9em;
+  margin-bottom: 5rem;
+}
+
+.car-name {
+  font-size: 0.9rem !important;
+}
+
+.brandsList-cars-container {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .brand-list-title {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}

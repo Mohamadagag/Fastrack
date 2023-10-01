@@ -1,0 +1,226 @@
+.homeBanner img {
+  position: relative;
+  width: 100%;
+}
+
+.banner_desc {
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  right: 13%;
+}
+
+.banner_desc h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner_desc p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  color: #fff;
+}
+
+.banner_desc div:first-child {
+  margin-bottom: 2rem;
+}
+
+.banner_desc a {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 4px solid #ecd038;
+  border-radius: 15px;
+  padding: 5px 25px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.welcome {
+  text-align: center;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.welcome h1 {
+  font-weight: normal;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.welcome a {
+  margin-top: 2rem;
+  color: #fff;
+  border: 4px solid #ecd038;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.section_title h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.product_card {
+  background-color: #282514;
+}
+
+.product_card h1 {
+  font-weight: normal;
+  padding: 1.4rem 0.5rem;
+  font-size: 1rem;
+}
+
+.product_card img {
+  height: 18rem;
+}
+
+.product_grid a:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.ourFleet-contaiener {
+  margin-top: 5rem;
+}
+
+.iframe-container {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  position: absolute;
+}
+
+.welcome-docs {
+  margin-top: 6rem;
+  margin-bottom: 9rem;
+}
+
+.welcome-docs h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-docs a {
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+}
+
+.required-docs-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.requied-docs {
+  background-color: #1d1b12;
+  width: 50%;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.requied-docs h2 {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.25rem;
+  color: #cea133;
+}
+
+.requied-docs p {
+  color: #9eaaab;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner_desc {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .product_grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .required-docs-container {
+    flex-direction: column;
+  }
+
+  .requied-docs {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .product_grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .required-docs-container {
+    flex-direction: column;
+  }
+
+  .welcome-docs {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .welcome-docs {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .luxury-container {
+    margin-top: 2rem;
+  }
+}

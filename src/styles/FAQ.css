@@ -1,0 +1,25 @@
+.faq-container{
+  margin-bottom: 3rem;
+}
+
+.faq-container h1 {
+  font-weight: normal;
+  padding-top: 5rem;
+  font-size: 1.9em;
+  margin-bottom: 5rem;
+}
+
+.faq-container p {
+  line-height: 2;
+}
+
+.faq {
+  margin-top: 1.25rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .faq-container h1 {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
