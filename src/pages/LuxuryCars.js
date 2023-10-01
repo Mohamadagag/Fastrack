@@ -36,7 +36,7 @@ const LuxuryCars = () => {
               <div className="luxurycars-image-container">
                 <img src={car.urls[0]} alt={car.name} />
               </div>
-              <h1>{car.name}</h1>
+              <h1 className="luxury-car-name">{car.name}</h1>
             </div>
           </Link>
         ))}

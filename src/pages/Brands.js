@@ -16,7 +16,7 @@ const Brands = () => {
               <div className="brands-image-container">
                 <img src={brand.img} alt={brand.name} />
               </div>
-              <h1>{brand.name}</h1>
+              <h1 className="brand-name">{brand.name}</h1>
             </div>
           </a>
         ))}

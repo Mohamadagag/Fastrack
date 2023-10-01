@@ -76,6 +76,10 @@
   .luxury-cars-container h1 {
     margin-bottom: 3rem;
   }
+
+  .luxury-car-name {
+    margin-bottom: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 450px) {

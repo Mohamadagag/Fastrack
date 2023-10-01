@@ -51,6 +51,9 @@
 @media only screen and (max-width: 450px) {
   .brands-container h1 {
     padding-top: 1rem;
+  }
+
+  .brand-name {
     margin-bottom: 3rem;
   }
 }
